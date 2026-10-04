@@ -6,8 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class YsAccdamyApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		SpringApplication.run(YsAccdamyApplication.class, args);
+
+
+		System.err.println("Started");
+
 	}
 
 }
